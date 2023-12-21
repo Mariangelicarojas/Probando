@@ -18,7 +18,7 @@ function mueveElBoton() {
 function accionParaCuandoEllaDigaQueSi() {
     const respuesta = confirm("¿Estas segura que vas a comer CARNE DE VERDAD??");
     if (respuesta){
-        window.location.href = "opcionSi.html";
+        window.location.href = "opcionsi.html";
     }else{
         alert("Te Amo")
     }
